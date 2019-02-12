@@ -44,6 +44,5 @@ Results-
 
 YOLO-
 
-/home/deewan/Downloads/b15cs016/btp/yolo_img_result1.png
 
 
