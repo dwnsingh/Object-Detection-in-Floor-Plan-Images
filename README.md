@@ -43,6 +43,7 @@ python test_frcnn.py -p test_images
 Results-
 
 YOLO-
-![Alt text](/home/deewan/Downloads/b15cs016/btp/yolo_img_result1.png?raw=true "Title")
+
+/home/deewan/Downloads/b15cs016/btp/yolo_img_result1.png
 
 
