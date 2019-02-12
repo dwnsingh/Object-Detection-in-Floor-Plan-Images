@@ -12,8 +12,8 @@ we used https://github.com/kbardool/keras-frcnn for frcnn
 
 Dataset-
 
-SESYD, “http://mathieu.delalandre.free.fr/projects/sesyd/symbols/floorplans.html”
-ROBIN dataset, [online] Available:​ ​ “https://github.com/gesstalt/ROBIN.git”
+SESYD, “http://mathieu.delalandre.free.fr/projects/sesyd/symbols/floorplans.html” 
+ROBIN dataset, [online] Available:​ ​ “https://github.com/gesstalt/ROBIN.git” 
 in addition we collected dataset by web scraping from some websites like “architecturalhouseplans.com” and
 “houseplans.com”.
 
