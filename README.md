@@ -46,12 +46,14 @@ YOLO-
 object detected
 ![](images/yolo_img_result1.png)
 
+
 accuracy achieved
 ![](images/mAP.png)
 
 faster FRCNN-
 object detected
 ![](images/frcnn_img_result1.png)
+
 
 accuracy achieved
 ![](images/frcnn_mAP.png)
