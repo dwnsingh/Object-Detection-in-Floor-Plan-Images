@@ -43,19 +43,16 @@ python test_frcnn.py -p test_images
 Results-
 
 YOLO-
-object detected
+object detected and  accuracy achieved
 ![](images/yolo_img_result1.png)
 
-
-accuracy achieved
 ![](images/mAP.png)
 
 faster FRCNN-
-object detected
-![](images/Frcnn_img_result1.png)
+object detected and accuracy achieved
+![](images/Frcnn_img_results1.png)
 
 
-accuracy achieved
 ![](images/frcc_mAP.png)
 
 
