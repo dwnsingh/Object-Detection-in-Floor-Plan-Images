@@ -52,10 +52,10 @@ accuracy achieved
 
 faster FRCNN-
 object detected
-![](images/frcnn_img_result1.png)
+![](images/Frcnn_img_result1.png)
 
 
 accuracy achieved
-![](images/frcnn_mAP.png)
+![](images/frcc_mAP.png)
 
 
