@@ -10,10 +10,12 @@ sink, etc. we used the yolo and faster RCNN for object detection.
 we used darkflow implementation of yolo https://github.com/thtrieu/darkflow and
 we used https://github.com/kbardool/keras-frcnn for frcnn
 
-Dataset-
+DATASET-
 
-SESYD, “http://mathieu.delalandre.free.fr/projects/sesyd/symbols/floorplans.html”\n
-ROBIN dataset, [online] Available:​ ​ “https://github.com/gesstalt/ROBIN.git”\n
+SESYD, “http://mathieu.delalandre.free.fr/projects/sesyd/symbols/floorplans.html”
+
+ROBIN dataset, [online] Available: “https://github.com/gesstalt/ROBIN.git”
+
 in addition we collected dataset by web scraping from some websites like “architecturalhouseplans.com” and
 “houseplans.com”.
 
