@@ -44,6 +44,6 @@ Results-
 
 YOLO-
 
-![](yolo_img_result1.png)
+![](images/yolo_img_result1.png)
 
 
