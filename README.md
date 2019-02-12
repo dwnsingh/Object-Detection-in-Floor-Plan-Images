@@ -19,10 +19,18 @@ ROBIN dataset, [online] Available: “https://github.com/gesstalt/ROBIN.git”
 in addition we collected dataset by web scraping from some websites like “architecturalhouseplans.com” and
 “houseplans.com”.
 
-yolo-
+YOLO-
+
 download the darkflow yolo from above given link.
+
 download bin, cfg, and dataset folder from above and add them to downloaded darkflow repository.
+
 we trained the model. to train your the model you can run the command-
+
 python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --train --annotation dataset/train_annotation --dataset dataset/train_images
+
+to predict the image run the predict_img.py file (you can prefer to change in option like model, load values etc.)
+
+
 
 
