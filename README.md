@@ -32,7 +32,7 @@ python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --
 to predict the image run the predict_img.py file (you can prefer to change in option like model, load values etc.)
 
 faster RCNN-
-
+download the frcnn folder from above
 to train model run command-
 
 python train_frcnn.py -o simple -p train.txt
