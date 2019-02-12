@@ -1,0 +1,12 @@
+armchair
+bed
+coffee_table
+round_table
+large_sofa
+small_sofa
+sink
+twin_sink
+small_sink
+large_sink
+tub
+dining_table
