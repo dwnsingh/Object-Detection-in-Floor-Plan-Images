@@ -68,10 +68,10 @@ python train_frcnn.py -o simple -p train.txt
 
 <b>TESTING</b>
 
-to test model run command-<br>  
+to test model run command-<br>
 python test_frcnn.py -p test_images
 
-Results-
+<b>RESULT</b>
 
 YOLO-
 object detected and  accuracy achieved
