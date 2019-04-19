@@ -71,7 +71,7 @@ python train_frcnn.py -o simple -p train.txt
 to test model run command-<br>
 python test_frcnn.py -p test_images
 
-<b>RESULT</b>
+<b>RESULTS</b>
 
 YOLO-
 object detected and  accuracy achieved
