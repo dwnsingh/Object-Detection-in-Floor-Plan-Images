@@ -48,18 +48,26 @@ python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --
 
 <b>PREDICTING</b>
 
-to predict a single image set the image file path in predict_img.py and run it. <br>
+1. to predict a single image set the image file path in predict_img.py and run it. <br>
 you can prefer to change in option field like model, load values, epochs, etc.
+
+2. to evalute the images of test set use command-<br>
+python flow --imgdir dataset/test_images --model cfg/tiny-yolo.cfg --load bin/tiny-yolo.weights --json<br>
+output  would be store in json format in dataset/test_images/out directory
 
 <b>FASTER RCNN-</b>
 
-download the frcnn folder from above and set file image directory path.
+<b>SETTING UP</b>
+1. download the frcnn folder from above and set file image directory path.
+2. convert xml annotation of train images into text file, for this you can have look at<br> https://www.analyticsvidhya.com/blog/2018/11/implementation-faster-r-cnn-python-object-detection/
 
-to train model run command-
+<b>TRAINING</b>
 
+to train model run command-<br>
 python train_frcnn.py -o simple -p train.txt
 
-to test model run command-  
+<b>TESTING</b>
+to test model run command-<br>  
 python test_frcnn.py -p test_images
 
 Results-
