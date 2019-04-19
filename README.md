@@ -21,7 +21,7 @@ ROBIN dataset, [online] Available: “https://github.com/gesstalt/ROBIN.git”
 in addition we collected dataset by web scraping from some websites like “architecturalhouseplans.com” and
 “houseplans.com”.
 
-<h4>DATASET PREPARATION(GENERATING IMAGE ANNOTATION)-</h4>
+<h4>DATASET PREPARATION (GENERATING IMAGE ANNOTATION)-</h4>
 
 1. image annotaion is the most time consuming task. annotate each object in a image and store their coordinates and label in an xml file.
 2. you have to annotate each image manually. you can use some tools like <i>"labelme"</i> but on average you would have spend at least 2 minute per image for annotation and with this speed you would be able to annotate at best 30 images in an hour. now you can imagine how tedious task it is.
