@@ -35,12 +35,19 @@ download dataset from above links or you can use your own and addd them to datas
 
 1. create a copy of configuration file tiny-yolo-voc.cfg and rename it to tiny-yolo-voc-12c.cfg (12c refer to the number of objects or classes we are identifying ) leave the original file unchanged.
 
+2. In tiny-yolo-voc-12c.cfg change classes in the [region] layer (the last layer) to the number of classes you are going to train for. in our case, it is 12.
 
-To train your the model you can run the command-
+3. change filters in the [convolutional] layer (the second to last layer) to num * (classes + 5). In our case, num is 5 and classes are 12 so 5 * (12 + 5) = 85 therefore filters are set to 85.
 
+4. Change labels.txt to include the label(s) you want to train on. In our case, labels.txt will contain 12 labels.
+
+5. To train your the model you can run the command-<br>
 python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --train --annotation dataset/train_annotation --dataset dataset/train_images
 
-to predict the image run the predict_img.py file (you can prefer to change in option like model, load values etc.)
+<b>PREDICTING</b>
+
+to predict a single image set the image file path in predict_img.py and run it. <br>
+you can prefer to change in option field like model, load values, epochs, etc.
 
 faster RCNN-
 download the frcnn folder from above
