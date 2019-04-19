@@ -23,6 +23,8 @@ in addition we collected dataset by web scraping from some websites like “arch
 
 <b>YOLO-</b>
 
+<b>SETTING UP-</b>
+
 download the darkflow yolo from above given link.
 
 download weight, cfg files from https://pjreddie.com/darknet/yolo/ there are plenty available and download the one which you need and add them to downloaded darkflow repository in bin and cfg directories respectively.
@@ -49,8 +51,10 @@ python flow --model cfg/tiny-yolo-voc-3c.cfg --load bin/tiny-yolo-voc.weights --
 to predict a single image set the image file path in predict_img.py and run it. <br>
 you can prefer to change in option field like model, load values, epochs, etc.
 
-faster RCNN-
-download the frcnn folder from above
+<b>FASTER RCNN-</b>
+
+download the frcnn folder from above and set file image directory path.
+
 to train model run command-
 
 python train_frcnn.py -o simple -p train.txt
