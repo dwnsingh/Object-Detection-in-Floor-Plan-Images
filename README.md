@@ -23,7 +23,7 @@ in addition we collected dataset by web scraping from some websites like “arch
 
 <b>YOLO-</b>
 
-<b>SETTING UP-</b>
+<b>SETTING UP</b>
 
 download the darkflow yolo from above given link.
 
@@ -67,6 +67,7 @@ to train model run command-<br>
 python train_frcnn.py -o simple -p train.txt
 
 <b>TESTING</b>
+
 to test model run command-<br>  
 python test_frcnn.py -p test_images
 
