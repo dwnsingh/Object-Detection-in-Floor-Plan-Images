@@ -41,13 +41,11 @@ much tedious task it is.
 
 <b>SETTING UP</b>
 
-download the darkflow yolo from above given link.
-
-download weight, cfg files from https://pjreddie.com/darknet/yolo/ there are plenty available and download the one which you need and add them to downloaded darkflow repository in bin and cfg directories respectively.<br>
-alternatively you can also download our pretrained model and weight if you want use them from this link https://drive.google.com/drive/u/1/folders/1rtOYXL1f8m3Ffwbj-_0aIiWBFMW9qjjT  <br> download both folder <i>ckpt</i>
+1. download the darkflow yolo from above given link.
+2. download weight, cfg files from https://pjreddie.com/darknet/yolo/ there are plenty available and download the one which you need and add them to downloaded darkflow repository in bin and cfg directories respectively.<br>
+3. alternatively you can also download our pretrained model and weight if you want use them from this link https://drive.google.com/drive/u/1/folders/1rtOYXL1f8m3Ffwbj-_0aIiWBFMW9qjjT  <br> download both folder <i>ckpt</i>
 and <i>cfg</i> and add them in the main directory of darkflow.
-
-download dataset from above links or you can use your own and addd them to dataset repository in downloaded darkflow repositor.
+4. download dataset from above links or you can use your own and addd them to dataset repository in downloaded darkflow repositor.
 
 <b>TRAINING</b>
 
